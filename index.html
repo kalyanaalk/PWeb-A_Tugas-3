@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SepatuBaru</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
-    
-    <div class="container">      
+
+    <header class="container">
         <div class="navbar">
             <div class="logo">
                 <a href="#home">
@@ -30,15 +32,16 @@
             </nav>
             <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
         </div>
-    </div>
+    </header>
 
-    <div class="Offers" id="Offers">
-        <div class="row">
-            <h1>Get the best offers</h1>
-            <h3>Discount up to 45%</h3>
-            <a href="" class="btn">Shop now &#8594</a>
-        </div>
-        <!-- <div class="slider">
+    <main>
+        <div class="Offers" id="Offers">
+            <article class="row">
+                <h1>Get the best offers</h1>
+                <h3>Discount up to 45%</h3>
+                <a href="" class="btn">Shop now &#8594</a>
+            </article>
+            <!-- <div class="slider">
             <span id="slide-1"></span>
             <span id="slide-2"></span>
             <span id="slide-3"></span>
@@ -53,102 +56,105 @@
               <a href="#slide-3"></a>
             </div>
           </div> -->
-          <div class="slideshow-container">
+            <aside class="slideshow-container">
 
-            <!-- Full-width images with number and caption text -->
-            <div class="mySlides fade">
-              <div class="numbertext">1 / 3</div>
-              <img src="images/slide-1.png" style="width:100%">
-            </div>
-          
-            <div class="mySlides fade">
-              <div class="numbertext">2 / 3</div>
-              <img src="images/slide-2.png" style="width:100%">
-            </div>
-          
-            <div class="mySlides fade">
-              <div class="numbertext">3 / 3</div>
-              <img src="images/slide-3.png" style="width:100%">
-            </div>
-          
-            <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            <!-- The dots/circles -->
-          <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-          </div>
-          </div>
-          <br>
-          
-          
-    </div>
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="images/slide-1.png" style="width:100%">
+                </div>
 
-    <div class="new" id="New">
-        <div class="New">
-            <div class="text-new">
-                <h1>New Arrivals</h1>
-                <h3>Pastel season</h3>
-                <!-- <div class="btn-center">
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="images/slide-2.png" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="images/slide-3.png" style="width:100%">
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </aside>
+            <br>
+
+
+        </div>
+
+        <div class="new" id="New">
+            <div class="New">
+                <div class="text-new">
+                    <h1>New Arrivals</h1>
+                    <h3>Pastel season</h3>
+                    <!-- <div class="btn-center">
                     <button><a href="" class="btn-nw">See more &#8594</a></button>
                 </div> -->
-            </div>
-            <div class="small-container">
-                <div class="row">
-                    <div class="col-3">
-                        <img src="images/new-1.jpg">
-                        <img src="images/new-2.jpg">
-                        <img src="images/new-3.jpg">
-                    </div>
-                    <div class="col-3">
-                        <img src="images/new-2.jpg">
-                        <img src="images/new-3.jpg">
-                        <img src="images/new-1.jpg">
-                    </div>
-                    <!-- <div class="btn-new">
+                </div>
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="images/new-1.jpg">
+                            <img src="images/new-2.jpg">
+                            <img src="images/new-3.jpg">
+                        </div>
+                        <div class="col-3">
+                            <img src="images/new-2.jpg">
+                            <img src="images/new-3.jpg">
+                            <img src="images/new-1.jpg">
+                        </div>
+                        <!-- <div class="btn-new">
                         <div class="btn-new-vercen">
                             <button><a href="" class="btn-nw">See more &#8594</a></button>
                         </div>
                     </div> -->
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
 
 
-    
     <footer>
-        <div class = "footer-container">
-            <div class = "footer-left">
+        <div class="footer-container">
+            <div class="footer-left">
                 <section class="about">
-					<h2 id="Contact">About</h2>
-					<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Curabitur blandit tempus porttitor.</p>
-				</section>    
+                    <h2 id="Contact">About</h2>
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                        sit amet risus. Curabitur blandit tempus porttitor.</p>
+                </section>
             </div>
 
-            <div class = "footer-center">
+            <div class="footer-center">
                 <section class="subscribe">
-					<h2>Join us</h2>
-					<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus..</p>
-				</section>    
+                    <h2>Join us</h2>
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                        sit amet risus..</p>
+                </section>
             </div>
 
-            <div class = "footer-right">
+            <div class="footer-right">
                 <h2>Give your honest review</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, autem!</p>
 
                 <div>
-                    
-                    <input type = "text" placeholder = "Tell us what you think">
+
+                    <input type="text" placeholder="Tell us what you think">
                 </div>
             </div>
         </div>
 
-    </footer>    
+    </footer>
 
 
 </body>
 <script src="slide.js"></script>
+
 </html>
